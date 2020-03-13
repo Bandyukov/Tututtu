@@ -12,9 +12,9 @@ console.log(person.name, person.age, person.married);
 let arr = ['apple', 'pamello'];
 console.log(arr[5]);
 
-//alert("What have u forgotten gere?");
-//let answer = confirm("Are you ok, dude?");
-//console.log(answer);
+alert("What have u forgotten gere?");
+let answer = confirm("Are you ok, dude?");
+console.log(answer);
 let respond = prompt("Есть ли вам 18 eptel'?", "Да");
 console.log("User's respond:", respond);
 let a = 0.9, b = 19, flag1 = true, flag2 = false;
@@ -26,6 +26,6 @@ for(var i = 0; i < 6; i++)
 }
 
 console.log(a, b);
-console.log(!flag1 || flag2);
+console.log(!flag1 ||flag2);
 
 
