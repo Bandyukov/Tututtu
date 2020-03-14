@@ -11,10 +11,31 @@ div
 {
     color: #2285f5;
 }
-#firstadress
+#logo
 {
-    color: green;
-    font-size: 18px;
+    margin-left: 30%;
+    transition: 4s all;
+}
+#logo:hover
+{
+    transform: rotate(360deg);
+}
+.address
+{
+    font-size: 36px;
+    font-weight: 600;
+}
+.miem
+{
+    color: orange;
+}
+.hse
+{
+    color: blue;
+}
+.lms
+{
+    color: purple;
 }
 .human
 {

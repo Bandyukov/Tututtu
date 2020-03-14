@@ -1,5 +1,17 @@
+let ans = prompt("", ""), a = [];
 
-var leftBorderWidth = 1;
+a = ans.split(", ");
+console.log(a);
+
+let h = ['sbr', 'ergtw', 'vre', 'itoub'], i = h.join(', ');
+console.log(h);
+console.log(i);
+h.sort();
+console.log(h);
+let p = [4, 8, -3, 9, 0];
+p.sort(function (a, b) {return a - b;});
+console.log(p);
+/*var leftBorderWidth = 1;
 let second = 2, flag = false;
 const pi = 3.14;
 
@@ -27,5 +39,5 @@ for(var i = 0; i < 6; i++)
 
 console.log(a, b);
 console.log(!flag1 ||flag2);
-
+*/
 
