@@ -172,3 +172,7 @@ for (i = 0; i < n; i++)
         console.log(i);
     }
 }*/
+
+let poi1 = [1, 2, 3];
+let poi2 = [1, 2, 3];
+console.log("Ёжик" > "аблоко");

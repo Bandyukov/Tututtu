@@ -1,3 +1,4 @@
+alert( +"Infinity" );
 let ans = prompt("", ""), a = [];
 
 a = ans.split(", ");
