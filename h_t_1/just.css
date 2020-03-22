@@ -66,11 +66,12 @@ button:hover
     color: blue;
     margin-right: 800px;
     padding: 30px;
-    border-radius: 70px;
+    border-radius: 180%;
 }
 .circle:hover
 {
-    color: white;
+    color: rgb(236, 236, 18);
+    background-color: blue;
     font-size: 21;
 }
 .rect
@@ -81,4 +82,14 @@ button:hover
     border: 2px solid black;
     border-radius: 60px;
     padding: 40px;
+}
+.wrapper
+{
+    background-color: cornsilk;
+}
+.wrapper:hover
+{
+    background-color: cornsilk;
+    box-shadow: 10px 10px 12px rgb(58, 59, 55);;
+}
 }
