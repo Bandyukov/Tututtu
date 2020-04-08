@@ -1,9 +1,11 @@
 let box = document.getElementById('box'),
-    btn = document.getElementsByTagName('button'),
+    btn = document.querySelectorAll('button'),
     circle = document.getElementsByClassName('circle'),
     rect = document.querySelectorAll('.rect'),
     oneRect = document.querySelector('.rect'),
-    wrapper = document.querySelector('.wrapper');
+    wrapper = document.querySelector('.wrapper'),
+    rap = document.querySelector('.rap'),
+    link = document.querySelector('a');
 
 console.log(box);
 console.log(btn);
@@ -36,5 +38,27 @@ div.classList.add('black');
 //document.body.removeChild(btn[0]); // удаляем элемент в body
 //wrapper.removeChild(circle[1]);
 //document.body.replaceChild(btn[1], rect[0]); // заменяем первый элемент на второйб который удалится
+//console.log(div);
 
-console.log(div);
+
+//btn[0].onclick = function() {alert('It works!');};
+/*btn[0].addEventListener('click', function(event) {
+    //let target = event.target;
+    //target.style.display = 'none'; // исчезнет
+    console.log("Произошло событие " + event.type + " на элементе " + event.target);
+});
+
+rap.addEventListener('click', function() {
+    console.log("Произошло событие " + event.type + " на элементе " + event.target);
+});
+
+link.addEventListener('click', function(event) {
+    event.preventDefault();
+    console.log("Произошло событие " + event.type + " на элементе " + event.target);
+});*/
+
+btn.forEach(function(item) {
+    item.addEventListener('mouseleave', function() {console.log("Out");});
+});
+
+//btn[0].addEventListener('mouseenter', function() {alert('You moused 1st button');}); // наводим на элемент
